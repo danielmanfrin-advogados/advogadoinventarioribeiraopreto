@@ -1,0 +1,37 @@
+# Advogado para Inventário em Ribeirão Preto
+
+Advogado para inventário em Ribeirão Preto, com páginas informativas e contato por WhatsApp ou telefone. O site é um portal de contato e não presta o serviço diretamente.
+
+## Serviços
+- [Inventário extrajudicial](https://advogadoinventarioribeiraopreto.vercel.app/servicos/orientacao-inventario-extrajudicial/): A via extrajudicial pode ser considerada quando o caso atende aos requisitos aplicáveis. A análise depende das circunstâncias, dos documentos e das regras vigentes.
+- [Inventário judicial](https://advogadoinventarioribeiraopreto.vercel.app/servicos/orientacao-inventario-judicial/): Orientação para compreender etapas e informações de um inventário conduzido judicialmente. O procedimento e as providências variam conforme o caso.
+- [Partilha e organização de documentos](https://advogadoinventarioribeiraopreto.vercel.app/servicos/partilha-e-organizacao-documental/): Uma conversa inicial ajuda a organizar informações sobre bens, interessados e documentos. A lista necessária depende da situação e da via do inventário.
+
+## Bairros atendidos
+- [Inventário em Centro](https://advogadoinventarioribeiraopreto.vercel.app/bairros/centro/): informações gerais para iniciar uma conversa sobre inventário em Centro, Ribeirão Preto.
+- [Inventário em Jardim Botânico](https://advogadoinventarioribeiraopreto.vercel.app/bairros/jardim-botanico/): informações gerais para iniciar uma conversa sobre inventário em Jardim Botânico, Ribeirão Preto.
+- [Inventário em Nova Aliança](https://advogadoinventarioribeiraopreto.vercel.app/bairros/nova-alianca/): informações gerais para iniciar uma conversa sobre inventário em Nova Aliança, Ribeirão Preto.
+- [Inventário em Vila Tibério](https://advogadoinventarioribeiraopreto.vercel.app/bairros/vila-tiberio/): informações gerais para iniciar uma conversa sobre inventário em Vila Tibério, Ribeirão Preto.
+- [Inventário em Bonfim Paulista](https://advogadoinventarioribeiraopreto.vercel.app/bairros/bonfim-paulista/): informações gerais para iniciar uma conversa sobre inventário em Bonfim Paulista, Ribeirão Preto.
+- [Inventário em Campos Elíseos](https://advogadoinventarioribeiraopreto.vercel.app/bairros/campos-eliseos/): informações gerais para iniciar uma conversa sobre inventário em Campos Elíseos, Ribeirão Preto.
+
+## Páginas institucionais
+- [Sobre o portal](https://advogadoinventarioribeiraopreto.vercel.app/sobre/)
+- [Perguntas frequentes](https://advogadoinventarioribeiraopreto.vercel.app/perguntas-frequentes/)
+- [Política de privacidade](https://advogadoinventarioribeiraopreto.vercel.app/politica-de-privacidade/)
+
+## Perguntas e respostas
+### O que é inventário e quando ele é necessário?
+O inventário organiza a apuração de bens, direitos e obrigações deixados e permite tratar da partilha entre os interessados. As etapas e a via dependem das circunstâncias; converse com um profissional para avaliar a situação.
+
+### Todo inventário pode ser feito em cartório?
+Não. A possibilidade de procedimento extrajudicial depende de requisitos legais e dos fatos do caso. Confirme a viabilidade com o profissional e o tabelionato competente.
+
+### Quais documentos devo separar?
+Certidão de óbito, documentos de identificação e informações sobre bens e obrigações podem ser relevantes, mas a lista varia. No primeiro contato, explique a situação em termos gerais e pergunte o que reunir; evite enviar documentos pessoais sem instrução.
+
+### Todos os interessados precisam concordar?
+A existência de divergências pode afetar a via e a condução do inventário. As consequências dependem dos fatos e das regras aplicáveis. Descreva a dúvida ao profissional para confirmar os próximos passos.
+
+### Como peço um orçamento?
+Clique em WhatsApp ou Ligue agora e informe o bairro, a situação geral, se já há procedimento em andamento e a dúvida principal. Não envie dados pessoais na primeira mensagem. O prestador informa escopo, honorários e condições no atendimento.

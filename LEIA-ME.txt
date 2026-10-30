@@ -1,0 +1,61 @@
+ADVOGADO PARA INVENTÁRIO EM RIBEIRÃO PRETO
+
+DOMINIO_BASE=https://advogadoinventarioribeiraopreto.vercel.app
+
+O que é este projeto
+--------------------
+Site estático em HTML, CSS e JavaScript puros. As páginas estão na raiz e em pastas com index.html. O site é um portal de contato e não presta o serviço diretamente. O contato informado é Dr. Daniel Manfrin.
+
+Trocar WhatsApp e telefone
+--------------------------
+1. Abra config.js.
+2. Troque os valores de whatsapp e telefone pelo novo número, só com dígitos e no formato 55 + DDD + número. Exemplo: 5516999999999.
+3. Salve e publique a nova versão do site. Não é preciso editar cada página: tracker.js atualiza todos os links ao carregar.
+
+Fotos
+-----
+As imagens ilustrativas ficam em img/ com nomes estáveis: hero.jpg, sobre.jpg, orientacao-inventario-extrajudicial.jpg, orientacao-inventario-judicial.jpg e partilha-e-organizacao-documental.jpg. Para substituir uma foto, mantenha o mesmo nome e formato, confira se a descrição alt continua adequada e evite fotos com dados pessoais, documentos legíveis ou marcas sem autorização. As imagens são ilustrativas e não representam necessariamente o prestador, sua equipe ou seu escritório.
+
+Atualizar a planilha de cliques
+-------------------------------
+1. Abra a planilha Google usada para os cliques.
+2. Acesse Extensões > Apps Script.
+3. Apague o código antigo e cole o conteúdo integral de apps-script/Code.gs.
+4. Execute a função setup() uma vez e autorize o acesso solicitado. Ela cria/configura a aba Cliques e o Resumo.
+5. Para atualizar a publicação sem trocar o endereço, acesse Implantar > Gerenciar implantações, edite a implantação existente, escolha Nova versão e clique em Implantar. O acesso deve estar como “Qualquer pessoa”. A URL do endpoint já está em config.js; mantenha-a igual.
+6. Abra a URL terminada em /exec no navegador. A resposta esperada pelo código é “ok v2”.
+
+O registro possui colunas como Site, Botão e Posição. Para montar um relatório por site: na planilha, selecione Inserir > Tabela dinâmica; escolha o intervalo da aba Cliques; em Linhas, adicione Site; em Valores, adicione Botão e use CONTAGEM. No pedido original, esse campo é referido como “Ação”; no cabeçalho do script ele aparece como “Botão”.
+
+Publicar na Vercel
+------------------
+1. Envie a pasta do projeto para um repositório GitHub chamado advogadoinventarioribeiraopreto.
+2. Na Vercel, importe o repositório e escolha Framework Preset: Other.
+3. Mantenha Build Command como npm run build e Output Directory como dist. O projeto não tem dependências externas; não instale React, Vite ou frameworks.
+4. Confirme as URLs limpas e a barra final em vercel.json.
+5. Para usar domínio próprio, atualize DOMINIO_BASE acima e substitua o domínio antigo nos canonical, sitemap.xml, robots.txt e URLs absolutas de dados estruturados/metadados antes de publicar.
+
+Google Search Console
+---------------------
+1. Entre no Google Search Console com a conta Google responsável pelo site.
+2. Adicione a propriedade do domínio publicado. Conclua a verificação pelo método exibido pelo Google (por exemplo, registro DNS ou arquivo HTML).
+3. Depois que o site estiver no ar, abra a área Sitemaps e envie https://advogadoinventarioribeiraopreto.vercel.app/sitemap.xml. Se usar domínio próprio, troque o endereço pelo domínio publicado.
+4. A ferramenta informa se o sitemap foi processado; a inclusão não garante posições ou indexação imediata.
+
+Perfil da Empresa no Google
+---------------------------
+Recomenda-se criar um Perfil da Empresa no Google somente quando houver um prestador real que se enquadre nas regras da plataforma e possua endereço físico elegível. Não invente endereço nem crie perfil para o portal sem um local de atendimento confirmado.
+
+Privacidade e conteúdo
+----------------------
+O site registra dados técnicos de cliques conforme politica-de-privacidade/index.html. Ele não pede nome, e-mail ou CPF em formulário e não usa cookies de publicidade. O atendimento por WhatsApp/telefone tem regras próprias. O conteúdo do site é geral e não substitui análise jurídica do caso.
+
+
+Revisão antes de publicar
+-------------------------
+Antes de divulgar o site publicamente, confirme com o advogado responsável se a identificação do contato, o modelo de encaminhamento para prestador parceiro e a forma de publicidade estão adequados às regras profissionais aplicáveis. Confirme também que as informações de contato e o escopo do atendimento permanecem corretos. Este pacote ainda não foi publicado na Vercel.
+
+
+Segurança do Apps Script
+------------------------
+O código público não contém o token usado por clientes POST. Para habilitar POST, abra Configurações do projeto no Apps Script e adicione uma propriedade de script chamada TOKEN com um valor forte e aleatório. Configure o mesmo valor no cliente autorizado. Não grave esse valor no GitHub. A coleta deste site usa GET; essa alteração não insere credenciais no JavaScript do site.

@@ -1,0 +1,56 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "title": "Advogado de Inventário em Ribeirão Preto"
+    },
+    {
+      "path": "/servicos/orientacao-inventario-extrajudicial/",
+      "title": "Inventário Extrajudicial em Ribeirão Preto"
+    },
+    {
+      "path": "/servicos/orientacao-inventario-judicial/",
+      "title": "Inventário Judicial em Ribeirão Preto"
+    },
+    {
+      "path": "/servicos/partilha-e-organizacao-documental/",
+      "title": "Partilha e Documentos em Ribeirão Preto"
+    },
+    {
+      "path": "/bairros/centro/",
+      "title": "Inventário no Centro, Ribeirão Preto"
+    },
+    {
+      "path": "/bairros/jardim-botanico/",
+      "title": "Inventário no Jardim Botânico, Ribeirão Preto"
+    },
+    {
+      "path": "/bairros/nova-alianca/",
+      "title": "Inventário na Nova Aliança, Ribeirão Preto"
+    },
+    {
+      "path": "/bairros/vila-tiberio/",
+      "title": "Inventário na Vila Tibério, Ribeirão Preto"
+    },
+    {
+      "path": "/bairros/bonfim-paulista/",
+      "title": "Inventário em Bonfim Paulista, Ribeirão Preto"
+    },
+    {
+      "path": "/bairros/campos-eliseos/",
+      "title": "Inventário nos Campos Elíseos, Ribeirão Preto"
+    },
+    {
+      "path": "/sobre/",
+      "title": "Sobre o Portal de Inventário em Ribeirão Preto"
+    },
+    {
+      "path": "/perguntas-frequentes/",
+      "title": "Dúvidas sobre Inventário em Ribeirão Preto"
+    },
+    {
+      "path": "/politica-de-privacidade/",
+      "title": "Política de Privacidade | Inventário Ribeirão Preto"
+    }
+  ]
+}
